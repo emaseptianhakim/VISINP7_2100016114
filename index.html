@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="dashboard.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <style>
+      body {
+        margin-top: 40px;
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Data Perbandingan Kategori Makanan</span>
+      <p class="navbar-brand mb-0 text-right" style="font-size: 12pt">
+        Ema Septian Hakim
+      </p>
+    </nav>
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Column Chart dari Data Perbandingan Kategori Makanan</div>
+            <div class="card-body">
+              <div id="chart1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Tabel Kategori Perbandingan Makanan</div>
+            <div class="card-body">
+              <div id="comparisonTable"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bar Chart Kategori Perbandingan Makanan</div>
+            <div class="card-body">
+              <div id="chart3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Total keseluruhan Kategori Makanan</div>
+            <div class="card-body">
+              <h5 class="card-title">Total Value</h5>
+              <div id="total" class="card-text"></div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+  
+    <!-- Tambahkan lebih banyak elemen div untuk grafik lainnya -->
+  </body>
+</html>
